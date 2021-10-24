@@ -4,8 +4,8 @@ import random
 #load your files or data here this code will read it from a text file or other file format:
 #dna = "ATGCTAGC"
 
-inputfile = 'data/dna_sequence_second.txt'
-#inputfile = input("Enter the name of your file: ")
+#inputfile = 'data/dna_sequence_second.txt'
+inputfile = input("Enter the name of your file: ")
 
 def read_seq_data(inputfile):
     with open(inputfile, "r") as f:
